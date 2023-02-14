@@ -1,7 +1,11 @@
 {
   "name": "openshift-oauth-example",
+  "description": "Example on how to use the OpenShift OAuth server to authenticate your app.",
+  "keywords": "openshift,oauth,node",
+  "homepage": "https://github.com/jkeam/openshift-oauth-example#readme",
+  "license" : "MIT",
   "version": "0.1.0",
-  "private": false,
+  "author": "Jon Keam <jpkeam@gmail.com> (https://jonkeam.com/)",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

@@ -13,7 +13,7 @@ This app demonstrates how to use OpenShift OAuth to authenticate your applicatio
 1. Install dependencies
 
 ```shell
-yarn
+yarn install
 ```
 
 2.  Create `.env` file that looks like this, but with your values
