@@ -30,7 +30,7 @@ metadata:
 grantMethod: prompt
 secret: JonK-RmiRy10PRkn9wcO4stRQCwfhqmZYVx-l8A6FI
 redirectURIs:
- - "http://localhost:8080"
+ - "http://localhost:3000"
 ')
 ```
 
