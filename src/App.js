@@ -20,7 +20,7 @@ function App({ clusterName, appUrl }) {
       setTokenType(params.get('token_type'));
       setLoggedIn(true);
     }
-  }, [setToken, setLoggedIn, setScope, setExpiresIn, setTokenType]);
+  }, [setToken, setScope, setExpiresIn, setTokenType, setLoggedIn]);
 
   return (
     <div className="App text-center container-fluid">
@@ -68,7 +68,7 @@ function App({ clusterName, appUrl }) {
             size="lg"
             href="/"
           >
-            Sign out 
+            Sign out
           </Button>
         </>
       )}
