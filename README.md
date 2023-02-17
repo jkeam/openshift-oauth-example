@@ -10,13 +10,16 @@ This app demonstrates how to use OpenShift OAuth to authenticate your applicatio
 
 ## Setup
 
-1. Install dependencies
+1. Install dependencies.
 
 ```shell
 yarn install
 ```
 
-2. Install OAuth client, replace redirect URI with where this node app will run. Also feel free to update with your own generated secret or just use mine if this is for demo purposes
+2. Install OAuth client, replace redirect URI
+with where this node app will run. Also feel free
+to update with your own generated secret or just use
+mine if this is for demo purposes.
 
 ```shell
 oc create -f <(echo '
@@ -31,7 +34,8 @@ grantMethod: prompt
 ')
 ```
 
-2.  Create `.env` file that looks like this, but with your values
+3. Create `.env` file that looks like this,
+but with your values.
 
 ```shell
 REACT_APP_CLUSTER_NAME=cluster-7wbqv.7wbqv.sandbox1249.opentlc.com
