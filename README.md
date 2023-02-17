@@ -27,10 +27,10 @@ kind: OAuthClient
 apiVersion: oauth.openshift.io/v1
 metadata:
  name: demo
+grantMethod: prompt
 secret: JonK-RmiRy10PRkn9wcO4stRQCwfhqmZYVx-l8A6FI
 redirectURIs:
- - "http://localhost:8080/oauth/redirect"
-grantMethod: prompt
+ - "http://localhost:8080"
 ')
 ```
 
