@@ -17,9 +17,7 @@ yarn install
 ```
 
 2. Install OAuth client, replace redirect URI
-with where this node app will run. Also feel free
-to update with your own generated secret or just use
-mine if this is for demo purposes.
+with where this node app will run
 
 ```shell
 oc create -f <(echo '
@@ -28,7 +26,6 @@ apiVersion: oauth.openshift.io/v1
 metadata:
  name: demo
 grantMethod: prompt
-secret: JonK-RmiRy10PRkn9wcO4stRQCwfhqmZYVx-l8A6FI
 redirectURIs:
  - "http://localhost:3000"
 ')
