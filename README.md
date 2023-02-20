@@ -39,6 +39,14 @@ REACT_APP_CLUSTER_NAME=cluster-7wbqv.7wbqv.sandbox1249.opentlc.com
 REACT_APP_APP_URL=http://localhost:3000
 ```
 
+The `REACT_APP_CLUSTER_NAME` is the cluster name
+which you can find from your OpenShift url.
+
+For example, if your url looks like this `https://console-openshift-console.apps.cluster-7wbqv.7wbqv.sandbox1249.opentlc.com/dashboards`
+then take everything after the `*.apps.` and everything before the `/dashboard`.
+
+The `REACT_APP_APP_URL` is where this node app is running.
+
 ## Running
 
 ```shell
